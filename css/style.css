@@ -1,0 +1,36 @@
+header{
+    font-size: 45px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+textarea{
+    align-items: center;
+}
+
+.enun{
+    font-size: 30px;
+	justify-content: justify;
+	font-family: Times New Roman,serif;
+}
+
+.boxi{
+	border: 2px solid black;
+	border-radius: 3px;
+}
+
+body{
+    background-color: #3EFF3F;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    color: #fff;
+ }
+ td, th {
+    background: #fff;
+    color: #000;
+ }

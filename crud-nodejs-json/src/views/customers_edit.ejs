@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CRUD SD</title>
+    
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    
+   </head>
+  <body>
+
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    </nav>
+      <nav>
+        <center><h3 style="color: black;">CESAR URIEL CHAVEZ PATIÑO</h3></center>
+      </nav>
+      <nav>
+        <center><h5 style="color: black;">SISTEMAS DISTRIBUIDOS</h5></center>
+      </nav>
+      <nav>
+        <center><h1 style="color: black;">HELADERIA</h1></center>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      </nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-5 offset-md-3 card">
+      <div class="card-body">
+        <form action="/update/<%= data.id %>" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" value="<%= data.name%>" placeholder="SABOR" class="form-control" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="text" name="address" value="<%= data.address%>" placeholder="TAMAÑO" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="phone" value="<%= data.phone%>" placeholder="PRECIO" class="form-control">
+          </div>
+          
+         
+
+          <button type="submit" class="btn btn-primary">
+            Guardar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <br>
+  <nav>
+    <center><h3 style="color: black;">ALMA ERIKA VAZQUEZ SANCHEZ</h3></center>
+  </nav>
+</footer>
+
+</body>
+</html>
